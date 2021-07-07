@@ -1,3 +1,4 @@
+RSpec::Expectations.configuration.on_potential_false_positives = :nothing
 describe "BankAccount" do
 
   let(:avi) { BankAccount.new("Avi") }
